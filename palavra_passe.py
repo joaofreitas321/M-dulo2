@@ -28,8 +28,7 @@ for letra in carater_especial:
     if letra in password:
         ter_carater_especial = True
         break                        
-if ter_maiúscula == True and ter_minuscula == True and ter_numero == True and ter_carater_especial == True:
+if ter_maiúscula == True and ter_minuscula == True and ter_numero == True and ter_carater_especial == True and len(password)>= 8:
     print("Palavra passe segura")
 else:
-    print("Palavra passe não é segura")
-                                
+    print("Palavra passe não é segura")                               
