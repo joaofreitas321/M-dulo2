@@ -31,4 +31,12 @@ for letra in carater_especial:
 if ter_maiúscula == True and ter_minuscula == True and ter_numero == True and ter_carater_especial == True and len(password)>= 8:
     print("Palavra passe segura")
 else:
-    print("Palavra passe não é segura")                               
+    print("Palavra passe não é segura")
+    if ter_maiúscula == False:
+        print("Não tem maiúsculas")
+    if ter_minuscula == False:
+        print("Não tem minusculas")
+    if ter_numero == False:
+        print("Não tem numeros")
+    if ter_carater_especial == False:
+        print("Não tem carater_especial")                                           
