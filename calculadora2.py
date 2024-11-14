@@ -13,7 +13,7 @@ while escolha == "s":
        resultado = n1 * n2
    elif op.lower() in "/d":
        resultado = n1 / n2
-    elif op.lower() == "somatório":
+   elif op.lower() == "somatório":
         i1 = int(n1)
         i2 = int(n2)
         resultado = 0
