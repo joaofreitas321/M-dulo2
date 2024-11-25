@@ -8,7 +8,7 @@ while orçamento > 0 and peso > 0:
     peso_produto = float(input("Indique o peso do produto comprado:"))
 if preço == 0:
     break
-if orçamento < preço or peso < prso_produto:
+if orçamento < preço or peso < peso_produto:
     print("Não tem dinheiro ou produto muito pesado")
 else:
     orçamento 
