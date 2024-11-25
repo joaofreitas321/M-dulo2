@@ -2,7 +2,7 @@
 dia = int(input("Introduza o dia"))
 mês = int(input("Introduza o mês"))
 ano = int(input("Introduza o ano"))
-
+mês_atual = 0
 soma = 0
 
 for mês in range(mês_atual,13):
